@@ -36,9 +36,9 @@ This is a simple **Spring Boot** project that demonstrates how to use **Spring D
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
-    ```
+    git clone :https://github.com/priyanshu-234/SpringDataJpaRepository
+    
+    
 
 2. **Set up MySQL database**:
     - Make sure MySQL is installed and running.
@@ -50,7 +50,7 @@ This is a simple **Spring Boot** project that demonstrates how to use **Spring D
 3. **Configure MySQL connection**:
     - In `src/main/resources/application.properties`, set up the connection details:
       ```properties
-      spring.datasource.url=jdbc:mysql://localhost:3306/testdb
+      spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabase
       spring.datasource.username=root
       spring.datasource.password=your_password
       spring.jpa.hibernate.ddl-auto=update
