@@ -42,7 +42,7 @@ This is a simple **Spring Boot** project that demonstrates how to use **Spring D
 
 2. **Set up MySQL database**:
     - Make sure MySQL is installed and running.
-    - Create a database (for example: `testdb`) in MySQL:
+    - Create a database (for example: `hiber`) in MySQL:
       ```sql
       CREATE DATABASE testdb;
       ```
@@ -50,7 +50,7 @@ This is a simple **Spring Boot** project that demonstrates how to use **Spring D
 3. **Configure MySQL connection**:
     - In `src/main/resources/application.properties`, set up the connection details:
       ```properties
-      spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabase
+      spring.datasource.url=jdbc:mysql://localhost:3306/hiber
       spring.datasource.username=root
       spring.datasource.password=your_password
       spring.jpa.hibernate.ddl-auto=update
